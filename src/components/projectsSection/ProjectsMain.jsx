@@ -6,7 +6,7 @@ import { fadeIn } from "../../framerMotion/variants";
 import img1 from '../../assets/images/Izitravelz.png';
 import img2 from '../../assets/images/departmental.png';
 import img3 from '../../assets/images/rentapp.png';
-import img4 from '../../assets/images/website-img-4.jpg';
+// import img4 from '../../assets/images/website-img-4.jpg';
 
 const projects = [
   {
@@ -30,13 +30,13 @@ const projects = [
     image: img3,
     link: "https://rent-app-ruddy.vercel.app/",
   },
-  {
-    name: "Ireign Website",
-    year: "May2024",
-    align: "left",
-    image: img4,
-    link: "#",
-  },
+  // {
+  //   name: "Ireign Website",
+  //   year: "May2024",
+  //   align: "left",
+  //   image: img4,
+  //   link: "#",
+  // },
 ];
 
 const ProjectsMain = () => {
