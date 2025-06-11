@@ -6,27 +6,33 @@ import { fadeIn } from "../../framerMotion/variants";
 import img1 from '../../assets/images/Izitravelz.png';
 import img2 from '../../assets/images/departmental.png';
 import img3 from '../../assets/images/rentapp.png';
-// import img4 from '../../assets/images/website-img-4.jpg';
-
+import img4 from '../../assets/images/Screenshot 2025-06-11 at 16.14.50.png';
 const projects = [
   {
     name: "IZITravelz",
-    year: "March24",
+    year: "March 2024",
     align: "right",
     image: img1,
     link: "https://www.izitravelz.com/",
   },
+    {
+    name: "JP Pastry",
+    year: "June 2025",
+    align: "left",
+    image: img4,
+    link: "https://jb-pastry-website.vercel.app/",
+  },
   {
     name: "Departmental Web-app",
     year: "Sept2024",
-    align: "left",
+    align: "right",
     image: img2,
     link: "https://departmental-web-app.vercel.app/",
   },
   {
     name: "Rent-App",
     year: "Jan2023",
-    align: "right",
+    align: "left",
     image: img3,
     link: "https://rent-app-ruddy.vercel.app/",
   },
