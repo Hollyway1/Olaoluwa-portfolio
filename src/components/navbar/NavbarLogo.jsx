@@ -2,10 +2,10 @@ const NavbarLogo = () => {
   return (
     <div>
       <h1 className="text-white  text-2xl sm:hidden md:block">
-        John Olaniyan
+        Arowojobe Oluwayemi Mary
       </h1>
       <h1 className="text-white font-special font-extrabold text-4xl md:hidden sm:block">
-        JO
+        AOM
       </h1>
     </div>
   );

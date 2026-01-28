@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
-import MyPicture from "../../assets/images/jo.png"; // Adjust the path as necessary
+import MyPicture from "../../assets/images/OL.jpg"; // Adjust the path as necessary
 
 const HeroPic = () => {
   return (
@@ -14,7 +14,7 @@ const HeroPic = () => {
     >
       <img
         src={MyPicture}
-        alt="John Olaniyan Feranmi"
+        alt="Arowojobe Oluwayemi Mary"
         className="max-h-[750px] w-auto"
       />
 

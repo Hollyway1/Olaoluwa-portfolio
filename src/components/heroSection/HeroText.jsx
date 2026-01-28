@@ -20,8 +20,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
       >
-        John <br className="sm:hidden md:block" />
-        Olaniyan
+        Arowojobe Oluwayemi <br className="sm:hidden md:block" />
+        Mary
       </motion.h1>
       <motion.p
         variants={fadeIn("up", 0.6)}
@@ -30,7 +30,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Passionate Web Developer and Instructor <br /> with 4 years of
+        A Passionate Web Developer<br /> with 2 years of
         experience.
       </motion.p>
     </div>
