@@ -3,39 +3,32 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-import img1 from '../../assets/images/Izitravelz.png';
-import img2 from '../../assets/images/departmental.png';
-import img3 from '../../assets/images/rentapp.png';
-import img4 from '../../assets/images/Screenshot 2025-06-11 at 16.14.50.png';
+import img1 from '../../assets/images/superpalace.png';
+import img2 from '../../assets/images/skycast.png';
+import img4 from '../../assets/images/pizza.png';
 const projects = [
   {
-    name: "IZITravelz",
-    year: "March 2024",
+    name: "Super-Palace Food",
+    year: "November 2025",
     align: "right",
     image: img1,
-    link: "https://www.izitravelz.com/",
+    link: "https://super-palace-food.vercel.app/",
   },
     {
-    name: "JP Pastry",
-    year: "June 2025",
+    name: "Pizza Website",
+    year: "October 2025",
     align: "left",
     image: img4,
-    link: "https://jb-pastry-website.vercel.app/",
+    link: "https://pizza-website-puce.vercel.app/",
   },
   {
-    name: "Departmental Web-app",
-    year: "Sept2024",
+    name: "skyCast",
+    year: "Jan 2026",
     align: "right",
     image: img2,
-    link: "https://departmental-web-app.vercel.app/",
+    link: "https://skycast-personal.vercel.app//",
   },
-  {
-    name: "Rent-App",
-    year: "Jan2023",
-    align: "left",
-    image: img3,
-    link: "https://rent-app-ruddy.vercel.app/",
-  },
+ 
   // {
   //   name: "Ireign Website",
   //   year: "May2024",

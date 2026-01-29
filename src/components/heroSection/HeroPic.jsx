@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
-import MyPicture from "../../assets/images/OL.jpg"; // Adjust the path as necessary
+import MyPicture from "../../assets/images/mypic.jpg"; // Adjust the path as necessary
 
 const HeroPic = () => {
   return (
@@ -14,12 +14,12 @@ const HeroPic = () => {
     >
       <img
         src={MyPicture}
-        alt="Arowojobe Oluwayemi Mary"
+        alt="Adelowo Olaoluwa Samuel"
         className="max-h-[750px] w-auto"
       />
 
       <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
-        <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite] " />
+        <PiHexagonThin className=" md:h-[80%] sm:h-[100%] min-h-[750px] w-auto text-gray blur-md animate-[spin_80s_linear_infinite] " />
       </div>
     </motion.div>
   );

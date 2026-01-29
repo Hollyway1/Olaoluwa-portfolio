@@ -1,4 +1,4 @@
-import aboutMeImage from '../../assets/images/about-me.jpg'; // adjust the path as needed
+import aboutMeImage from '../../assets/images/developer.jpg'; // adjust the path as needed
 
 
 const AboutMeImage = () => {

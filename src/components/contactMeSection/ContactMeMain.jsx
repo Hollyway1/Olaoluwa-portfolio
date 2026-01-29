@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
-import YourPhoto from "../../assets/images/mypic.jpeg";
+import YourPhoto from "../../assets/images/mainpic.jpg";
 
 const ContactMeMain = () => {
   const container = {
@@ -81,7 +81,7 @@ const ContactMeMain = () => {
                     href="mailto:obanijesujohn45@gmail.com"
                     className="text-gray-600 hover:text-cyan-600 transition-colors"
                   >
-                    obanijesujohn45@gmail.com
+                   adelowoolaoluwa85@gmail.com
                   </a>
                 </div>
               </motion.div>
@@ -96,10 +96,10 @@ const ContactMeMain = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">Phone</h4>
                   <a
-                    href="tel:+2349160214824"
+                    href="tel:+2347034917189"
                     className="text-gray-600 hover:text-cyan-600 transition-colors"
                   >
-                    +234 90 6021 4824
+                    +234 70 3491 7189
                   </a>
                 </div>
               </motion.div>
@@ -114,12 +114,12 @@ const ContactMeMain = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">GitHub</h4>
                   <a
-                    href="https://github.com/obaTec2000"
+                    href="https://github.com/Hollyway1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-cyan-600 transition-colors"
                   >
-                    github.com/yourusername
+                    github.com/Hollyway1
                   </a>
                 </div>
               </motion.div>
@@ -134,12 +134,12 @@ const ContactMeMain = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">LinkedIn</h4>
                   <a
-                    href="https://www.linkedin.com/in/feranmi-john-107723253/"
+                    href="https://www.linkedin.com/in/adelowo-olaoluwa-201156344/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-cyan-600 transition-colors"
                   >
-                    linkedin.com/in/feranmi-john
+                    linkedin.com/in/adelowo-olaoluwa
                   </a>
                 </div>
               </motion.div>
@@ -156,7 +156,7 @@ const ContactMeMain = () => {
           <div className="w-full h-[460px] max-w-md overflow-hidden rounded-xl shadow-lg relative">
             <motion.img
               src={YourPhoto}
-              alt="John Obanijesu"
+              alt="Adelowo Olaoluwa Samuel"
               className="w-full h-full object-cover"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -175,7 +175,7 @@ const ContactMeMain = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1 }}
               >
-                John Obanijesu
+                Adelowo Olaoluwa Samuel
               </motion.h3>
               <motion.p
                 className="text-gray-600 mt-2 text-shadow"

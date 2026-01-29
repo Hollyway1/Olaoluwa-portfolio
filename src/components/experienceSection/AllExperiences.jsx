@@ -6,8 +6,8 @@ import { fadeIn } from "../../framerMotion/variants";
 const experiences = [
   {
     job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    company: "Obatech-ark",
+    date: "2025 - Present",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
@@ -15,24 +15,15 @@ const experiences = [
       "Generating new ideas for better user experience.",
     ],
   },
+
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Web Developer",
+    company: "Obatech-ark",
+    date: "2025 - Present",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
-    ],
-  },
-  {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
-    responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Building responsive web applications with React.",
+  "Collaborating with designers and backend developers to create seamless user experiences.",
+  "Writing clean, maintainable code and troubleshooting issues for optimal performance."
     ],
   },
 ];

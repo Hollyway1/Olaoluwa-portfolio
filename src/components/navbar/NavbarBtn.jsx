@@ -4,8 +4,8 @@ import { LuArrowDownRight } from "react-icons/lu";
 const NavbarBtn = () => {
   const handleClick = () => {
     // Replace with your WhatsApp number (include country code without '+' or '0')
-    const phoneNumber = "2349073634450"; 
-    const message = "Hello Oluwayemi, I'd like to discuss a project opportunity!";
+    const phoneNumber = "2347034917189"; 
+    const message = "Hello Olaoluwa, I'd like to discuss a project opportunity!";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
