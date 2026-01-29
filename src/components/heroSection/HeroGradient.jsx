@@ -12,7 +12,7 @@ const gradientVariants = {
       ease: "easeInOut",
     },
   }),
-}; // ✅ semicolon added here
+}; // 
 
 const HeroGradient = () => {
   return (
