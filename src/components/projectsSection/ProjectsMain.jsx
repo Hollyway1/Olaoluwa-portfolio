@@ -6,6 +6,7 @@ import { fadeIn } from "../../framerMotion/variants";
 import img1 from '../../assets/images/superpalace.png';
 import img2 from '../../assets/images/skycast.png';
 import img4 from '../../assets/images/pizza.png';
+import img3 from '../../assets/images/obatechark.png';
 const projects = [
   {
     name: "Super-Palace Food",
@@ -21,6 +22,13 @@ const projects = [
     image: img4,
     link: "https://pizza-website-puce.vercel.app/",
   },
+   {
+    name: "Obatech-Ark",
+    year: "October 2025",
+    align: "left",
+    image: img3,
+    link: "https://obatech-ark.vercel.app/",
+  },
   {
     name: "skyCast",
     year: "Jan 2026",
@@ -28,6 +36,7 @@ const projects = [
     image: img2,
     link: "https://skycast-personal.vercel.app//",
   },
+ 
  
   // {
   //   name: "Ireign Website",

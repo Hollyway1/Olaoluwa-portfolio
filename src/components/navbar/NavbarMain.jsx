@@ -1,23 +1,39 @@
+import { useSelector } from "react-redux";
 import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
 import NavbarBtn from "./NavbarBtn";
 import NavbarToggler from "./NavbarToggler";
 
-const NavbarMain = ({ menuOpen }) => {
+const NavbarMain = () => {
+  // Correctly read Redux state
+  const menuOpen = useSelector((state) => state.menu.menuOpen);
+
   return (
-    <nav className="max-w-[1300px] mx-auto w-full px-4 fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2">
-      <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center p-6 rounded-r-full rounded-l-full border-orange border-[0.5px]">
+    <nav className="fixed top-0 left-1/2 -translate-x-1/2 w-full z-20 px-4">
+      <div className="max-w-[1300px] mx-auto flex justify-between items-center bg-black p-6 rounded-full border border-orange">
+        {/* Logo */}
         <NavbarLogo />
 
-        <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
+        {/* Desktop Links */}
+        <div className="hidden lg:flex gap-6 items-center">
           <NavbarLinks />
+          <NavbarBtn />
         </div>
 
-        <NavbarBtn />
+        {/* Mobile Hamburger */}
+        <div className="lg:hidden flex items-center gap-4">
+          <NavbarBtn />
+          <NavbarToggler />
+        </div>
       </div>
 
-      <div className="flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full border-orange border-[0.5px]">
-        <NavbarToggler />
+      {/* Mobile Menu */}
+      <div
+        className={`lg:hidden bg-black/80 backdrop-blur-lg rounded-b-xl overflow-hidden transition-all duration-300 ${
+          menuOpen ? "max-h-96 py-4" : "max-h-0"
+        }`}
+      >
+        <NavbarLinks isMobile={true} />
       </div>
     </nav>
   );
